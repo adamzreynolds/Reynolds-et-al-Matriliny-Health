@@ -6,7 +6,7 @@
 #-------------------------------------------------
 # READ DATA FROM FILE
 
-data <- read.csv("../FINAL DATA/Dataset_S3.csv")
+data <- read.csv("Dataset_S1.csv")
 
 
 
@@ -44,7 +44,7 @@ prop.table(mytable, 2) * 100
 # BAYESIAN LOGISTIC REGRESSION MODELS 
 
 require(rethinking)
-set.seed(39485)
+# set.seed(39485)
 
 #------------------------------------
 # SUBSET ONLY COMPLETE DATA
